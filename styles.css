@@ -1,0 +1,110 @@
+body { 
+  font-family: Arial, sans-serif;
+ }
+ /* Header Section Styles */
+ .main-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.header-content {
+  flex-grow: 1;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button:not(:first-child) {
+  margin-left: 10px; /* Adjust the space as needed */
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.main-header h1 {
+  margin: 0 0 10px;
+  flex-grow: 1; /* Allow the title to grow and fill the space */
+}
+
+.main-header p {
+  margin: 0;
+  flex-basis: 100%; /* Make the description take the full width */
+}
+.header {
+   background-color: #f2f2f2; padding: 20px; text-align: center; 
+  }
+
+.intro { 
+  margin: 15px; padding: 15px;
+ }
+
+ .footer {
+  background-color: #d3d3d3; /* Slightly deeper grey */
+  padding: 10px;
+  text-align: center;
+}
+
+.footer button {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.container { 
+  display: flex; flex-wrap: wrap; justify-content: space-around;
+ }
+ 
+.column { 
+  flex: 1; min-width: 150px; margin: 5px; padding: 10px; background-color: #e7e7e7;
+ }
+
+ .column h3 {
+  text-align: center; /* Centers the title text within the column */
+}
+.tag {
+  font-style: italic;
+  font-size: 0.5em;
+  margin-left: 5px;
+  background-color: #e7e7e7; /* Light grey background */
+  padding: 2px 4px; /* Add some padding around the text */
+  border-radius: 3px; /* Optional: rounded corners for the tag */
+}
